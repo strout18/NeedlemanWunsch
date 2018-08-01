@@ -122,5 +122,5 @@ def nwscore(seq1, seq2):
     prnt(grid)
     backtrack(grid, lseq1, lseq2)
     
-    #example
-    nwscore('COELACANTH', 'PELICAN')
+#example
+nwscore('COELACANTH', 'PELICAN')
