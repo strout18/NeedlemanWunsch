@@ -100,4 +100,6 @@ def nwscore(seq1, seq2): #see https://en.wikipedia.org/wiki/Needleman%E2%80%93Wu
             grid[row][col] = max(opts)
     prnt(grid)
     backtrack(grid, lseq1, lseq2)
-    
+
+#example
+nwscore('COELACANTH', 'PELICAN')
