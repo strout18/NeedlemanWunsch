@@ -75,10 +75,10 @@ def nwscore(seq1, seq2):
                     print (strings)
                     if len(strings) != 0:
                         if 1 in checkarrs[0] or 2 in checkarrs[0] or 3 in checkarrs[0]:
-                            print ('halp', max(branches[0][0], branches[0][1]) + 1)
+                            #print ('halp', max(branches[0][0], branches[0][1]) + 1)
                             #tempa = tempa[max(branches[0][0], branches[0][1]) + 1:]
                             #tempb = tempb[max(branches[0][1], branches[0][0]) + 1:]
-                            print('flG', branches[0][0], branches[0][1])
+                            #print('flG', branches[0][0], branches[0][1])
                             #print ('TEMPS2', tempa, tempb)
                             score(branches[0][0], branches[0][1], checkarrs[0], strings[1][0], strings[1][1])
                         else:
